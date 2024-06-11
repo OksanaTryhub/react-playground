@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "radial-gradient":
+          "radial-gradient(circle at 50% 50%, rgb(224,231,255), rgb(199,210,254), rgb(165,180,252))",
+      },
       keyframes: {
         fadeIn: { "0%": { opacity: 0 }, "100%": { opacity: 1 } },
         moving: {
